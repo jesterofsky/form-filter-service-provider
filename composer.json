@@ -1,0 +1,21 @@
+{
+    "name": "jesterofsky/form-filter-service-provider",
+	"version": "1.0.0-dev",
+    "description": "A simple Service Provider around lexik/form-filter-bundle to enable usage with Silex",
+    "keywords": ["silex", "form-filter"],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Damir",
+            "email": "damir@webartifex.com"
+        }
+    ],
+    "require": {
+        "lexik/form-filter-bundle": "~2.0"
+    },
+    "autoload": {
+        "psr-0": { "Jesterofsky\\Silex": "src" }
+    }
+}
